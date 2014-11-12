@@ -1,0 +1,864 @@
+{
+  "0": [
+    "C0 Controls and Basic Latin",
+    "C1 Controls and Latin-1 Supplement"
+  ],
+  "256": [
+    "Latin Extended-A",
+    "Latin Extended-B"
+  ],
+  "512": [
+    "Latin Extended-B",
+    "IPA Extensions Unicode block",
+    "Spacing Modifier Letters"
+  ],
+  "768": [
+    "Combining Diacritical Marks",
+    "Greek alphabet"
+  ],
+  "1024": [
+    "Cyrillic script"
+  ],
+  "1280": [
+    "Cyrillic Supplement",
+    "Armenian alphabet",
+    "Hebrew alphabet"
+  ],
+  "1536": [
+    "Arabic alphabet"
+  ],
+  "1792": [
+    "Syriac alphabet",
+    "Arabic Supplement",
+    "Thaana alphabet",
+    "N'Ko alphabet"
+  ],
+  "2048": [
+    "Samaritan script",
+    "Mandaic alphabet",
+    "Arabic alphabet"
+  ],
+  "2304": [
+    "Devanagari",
+    "Bengali script"
+  ],
+  "2560": [
+    "Gurmukhī",
+    "Gujarāti script"
+  ],
+  "2816": [
+    "Oriya script",
+    "Tamil script"
+  ],
+  "3072": [
+    "Telugu script",
+    "Kannada script"
+  ],
+  "3328": [
+    "Malayalam script",
+    "Sinhala script"
+  ],
+  "3584": [
+    "Thai script",
+    "Lao script"
+  ],
+  "3840": [
+    "Tibetan script"
+  ],
+  "4096": [
+    "Burmese script",
+    "Georgian alphabet"
+  ],
+  "4352": [
+    "List of Hangul Jamo"
+  ],
+  "4608": [
+    "Ge'ez script"
+  ],
+  "4864": [
+    "Ge'ez script",
+    "Ethiopic Supplement",
+    "Cherokee syllabary"
+  ],
+  "5120": [
+    "Unified Canadian Aboriginal Syllabics"
+  ],
+  "5376": [
+    "Unified Canadian Aboriginal Syllabics"
+  ],
+  "5632": [
+    "Unified Canadian Aboriginal Syllabics",
+    "Ogham",
+    "Runic alphabet"
+  ],
+  "5888": [
+    "Baybayin",
+    "Hanunó'o script",
+    "Buhid script",
+    "Tagbanwa script",
+    "Khmer script"
+  ],
+  "6144": [
+    "Mongolian script",
+    "Unified Canadian Aboriginal Syllabics"
+  ],
+  "6400": [
+    "Limbu script",
+    "Tai Le script",
+    "Tai Lü language",
+    "Khmer Symbols"
+  ],
+  "6656": [
+    "Buginese script",
+    "Tai Tham script",
+    "Combining Diacritical Marks Extended"
+  ],
+  "6912": [
+    "Balinese script",
+    "Sundanese script",
+    "Batak script"
+  ],
+  "7168": [
+    "Lepcha script",
+    "Ol Chiki script",
+    "Sundanese script",
+    "Vedic Sanskrit"
+  ],
+  "7424": [
+    "Phonetic Extensions",
+    "Phonetic Extensions Supplement",
+    "Combining Diacritical Marks Supplement"
+  ],
+  "7680": [
+    "Latin extended additional"
+  ],
+  "7936": [
+    "Greek Extended"
+  ],
+  "8192": [
+    "General Punctuation Unicode block",
+    "Superscripts and Subscripts",
+    "Currency Symbols",
+    "Combining Diacritical Marks for Symbols"
+  ],
+  "8448": [
+    "Letterlike Symbols",
+    "Number Forms",
+    "Arrow, symbol"
+  ],
+  "8704": [
+    "Unicode Mathematical Operators"
+  ],
+  "8960": [
+    "Miscellaneous TechnicalUnicode"
+  ],
+  "9216": [
+    "Control Pictures",
+    "Optical Character Recognition Unicode block",
+    "Enclosed Alphanumerics"
+  ],
+  "9472": [
+    "Box drawing characters",
+    "Block Elements",
+    "Geometric Shapes"
+  ],
+  "9728": [
+    "Miscellaneous Symbols"
+  ],
+  "9984": [
+    "Unicode Dingbats",
+    "Miscellaneous Mathematical Symbols-A",
+    "Supplemental Arrows-A"
+  ],
+  "10240": [
+    "Braille Patterns"
+  ],
+  "10496": [
+    "Supplemental Arrows-B",
+    "Miscellaneous Mathematical Symbols-B"
+  ],
+  "10752": [
+    "Supplemental Mathematical Operators"
+  ],
+  "11008": [
+    "Miscellaneous Symbols and Arrows"
+  ],
+  "11264": [
+    "Glagolitic alphabet",
+    "Latin Extended-C",
+    "Coptic Unicode block"
+  ],
+  "11520": [
+    "Georgian Supplement",
+    "Tifinagh",
+    "Ethiopic Extended",
+    "Cyrillic Extended-A"
+  ],
+  "11776": [
+    "Supplemental Punctuation",
+    "CJK Radical Chinese character"
+  ],
+  "12032": [
+    "Kangxi Radicals",
+    "Ideographic Description CharactersUnicode block"
+  ],
+  "12288": [
+    "CJK Symbols and Punctuation",
+    "Hiragana",
+    "Katakana"
+  ],
+  "12544": [
+    "Bopomofo",
+    "Hangul Compatibility Jamo",
+    "Kanbun",
+    "Bopomofo Extended",
+    "CJK Stroke Chinese character",
+    "Katakana Phonetic Extensions"
+  ],
+  "12800": [
+    "Enclosed CJK Letters and Months"
+  ],
+  "13056": [
+    "CJK Compatibility"
+  ],
+  "13312": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "13568": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "13824": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "14080": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "14336": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "14592": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "14848": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "15104": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "15360": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "15616": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "15872": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "16128": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "16384": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "16640": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "16896": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "17152": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "17408": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "17664": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "17920": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "18176": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "18432": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "18688": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "18944": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "19200": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "19456": [
+    "CJK Unified Ideographs Extension A"
+  ],
+  "19712": [
+    "CJK Unified Ideographs Extension A",
+    "Yijing Hexagram Symbols"
+  ],
+  "19968": [
+    "CJK Unified Ideographs"
+  ],
+  "20224": [
+    "CJK Unified Ideographs"
+  ],
+  "20480": [
+    "CJK Unified Ideographs"
+  ],
+  "20736": [
+    "CJK Unified Ideographs"
+  ],
+  "20992": [
+    "CJK Unified Ideographs"
+  ],
+  "21248": [
+    "CJK Unified Ideographs"
+  ],
+  "21504": [
+    "CJK Unified Ideographs"
+  ],
+  "21760": [
+    "CJK Unified Ideographs"
+  ],
+  "22016": [
+    "CJK Unified Ideographs"
+  ],
+  "22272": [
+    "CJK Unified Ideographs"
+  ],
+  "22528": [
+    "CJK Unified Ideographs"
+  ],
+  "22784": [
+    "CJK Unified Ideographs"
+  ],
+  "23040": [
+    "CJK Unified Ideographs"
+  ],
+  "23296": [
+    "CJK Unified Ideographs"
+  ],
+  "23552": [
+    "CJK Unified Ideographs"
+  ],
+  "23808": [
+    "CJK Unified Ideographs"
+  ],
+  "24064": [
+    "CJK Unified Ideographs"
+  ],
+  "24320": [
+    "CJK Unified Ideographs"
+  ],
+  "24576": [
+    "CJK Unified Ideographs"
+  ],
+  "24832": [
+    "CJK Unified Ideographs"
+  ],
+  "25088": [
+    "CJK Unified Ideographs"
+  ],
+  "25344": [
+    "CJK Unified Ideographs"
+  ],
+  "25600": [
+    "CJK Unified Ideographs"
+  ],
+  "25856": [
+    "CJK Unified Ideographs"
+  ],
+  "26112": [
+    "CJK Unified Ideographs"
+  ],
+  "26368": [
+    "CJK Unified Ideographs"
+  ],
+  "26624": [
+    "CJK Unified Ideographs"
+  ],
+  "26880": [
+    "CJK Unified Ideographs"
+  ],
+  "27136": [
+    "CJK Unified Ideographs"
+  ],
+  "27392": [
+    "CJK Unified Ideographs"
+  ],
+  "27648": [
+    "CJK Unified Ideographs"
+  ],
+  "27904": [
+    "CJK Unified Ideographs"
+  ],
+  "28160": [
+    "CJK Unified Ideographs"
+  ],
+  "28416": [
+    "CJK Unified Ideographs"
+  ],
+  "28672": [
+    "CJK Unified Ideographs"
+  ],
+  "28928": [
+    "CJK Unified Ideographs"
+  ],
+  "29184": [
+    "CJK Unified Ideographs"
+  ],
+  "29440": [
+    "CJK Unified Ideographs"
+  ],
+  "29696": [
+    "CJK Unified Ideographs"
+  ],
+  "29952": [
+    "CJK Unified Ideographs"
+  ],
+  "30208": [
+    "CJK Unified Ideographs"
+  ],
+  "30464": [
+    "CJK Unified Ideographs"
+  ],
+  "30720": [
+    "CJK Unified Ideographs"
+  ],
+  "30976": [
+    "CJK Unified Ideographs"
+  ],
+  "31232": [
+    "CJK Unified Ideographs"
+  ],
+  "31488": [
+    "CJK Unified Ideographs"
+  ],
+  "31744": [
+    "CJK Unified Ideographs"
+  ],
+  "32000": [
+    "CJK Unified Ideographs"
+  ],
+  "32256": [
+    "CJK Unified Ideographs"
+  ],
+  "32512": [
+    "CJK Unified Ideographs"
+  ],
+  "32768": [
+    "CJK Unified Ideographs"
+  ],
+  "33024": [
+    "CJK Unified Ideographs"
+  ],
+  "33280": [
+    "CJK Unified Ideographs"
+  ],
+  "33536": [
+    "CJK Unified Ideographs"
+  ],
+  "33792": [
+    "CJK Unified Ideographs"
+  ],
+  "34048": [
+    "CJK Unified Ideographs"
+  ],
+  "34304": [
+    "CJK Unified Ideographs"
+  ],
+  "34560": [
+    "CJK Unified Ideographs"
+  ],
+  "34816": [
+    "CJK Unified Ideographs"
+  ],
+  "35072": [
+    "CJK Unified Ideographs"
+  ],
+  "35328": [
+    "CJK Unified Ideographs"
+  ],
+  "35584": [
+    "CJK Unified Ideographs"
+  ],
+  "35840": [
+    "CJK Unified Ideographs"
+  ],
+  "36096": [
+    "CJK Unified Ideographs"
+  ],
+  "36352": [
+    "CJK Unified Ideographs"
+  ],
+  "36608": [
+    "CJK Unified Ideographs"
+  ],
+  "36864": [
+    "CJK Unified Ideographs"
+  ],
+  "37120": [
+    "CJK Unified Ideographs"
+  ],
+  "37376": [
+    "CJK Unified Ideographs"
+  ],
+  "37632": [
+    "CJK Unified Ideographs"
+  ],
+  "37888": [
+    "CJK Unified Ideographs"
+  ],
+  "38144": [
+    "CJK Unified Ideographs"
+  ],
+  "38400": [
+    "CJK Unified Ideographs"
+  ],
+  "38656": [
+    "CJK Unified Ideographs"
+  ],
+  "38912": [
+    "CJK Unified Ideographs"
+  ],
+  "39168": [
+    "CJK Unified Ideographs"
+  ],
+  "39424": [
+    "CJK Unified Ideographs"
+  ],
+  "39680": [
+    "CJK Unified Ideographs"
+  ],
+  "39936": [
+    "CJK Unified Ideographs"
+  ],
+  "40192": [
+    "CJK Unified Ideographs"
+  ],
+  "40448": [
+    "CJK Unified Ideographs"
+  ],
+  "40704": [
+    "CJK Unified Ideographs"
+  ],
+  "40960": [
+    "yi syllables unicode block"
+  ],
+  "41216": [
+    "yi syllables unicode block"
+  ],
+  "41472": [
+    "yi syllables unicode block"
+  ],
+  "41728": [
+    "yi syllables unicode block"
+  ],
+  "41984": [
+    "yi syllables unicode block",
+    "Yi Radicals",
+    "Fraser alphabet"
+  ],
+  "42240": [
+    "Vai syllabary"
+  ],
+  "42496": [
+    "Vai syllabary",
+    "Cyrillic Extended-B",
+    "Bamum script"
+  ],
+  "42752": [
+    "Modifier Tone Letters",
+    "Latin Extended-D"
+  ],
+  "43008": [
+    "Syloti Nagri",
+    "Common Indic Number Forms",
+    "Phagspa script",
+    "Saurashtra script",
+    "Devanagari Extended"
+  ],
+  "43264": [
+    "Kayah Li script",
+    "Rejang script",
+    "Hangul Jamo Extended-A",
+    "Javanese script",
+    "Myanmar Extended-B"
+  ],
+  "43520": [
+    "Cham script",
+    "Myanmar Extended-A",
+    "Tai Viet script",
+    "Meetei Mayek"
+  ],
+  "43776": [
+    "Ethiopic Extended-A",
+    "Latin Extended-E",
+    "Meetei Mayek"
+  ],
+  "44032": [
+    "Hangul Syllables"
+  ],
+  "44288": [
+    "Hangul Syllables"
+  ],
+  "44544": [
+    "Hangul Syllables"
+  ],
+  "44800": [
+    "Hangul Syllables"
+  ],
+  "45056": [
+    "Hangul Syllables"
+  ],
+  "45312": [
+    "Hangul Syllables"
+  ],
+  "45568": [
+    "Hangul Syllables"
+  ],
+  "45824": [
+    "Hangul Syllables"
+  ],
+  "46080": [
+    "Hangul Syllables"
+  ],
+  "46336": [
+    "Hangul Syllables"
+  ],
+  "46592": [
+    "Hangul Syllables"
+  ],
+  "46848": [
+    "Hangul Syllables"
+  ],
+  "47104": [
+    "Hangul Syllables"
+  ],
+  "47360": [
+    "Hangul Syllables"
+  ],
+  "47616": [
+    "Hangul Syllables"
+  ],
+  "47872": [
+    "Hangul Syllables"
+  ],
+  "48128": [
+    "Hangul Syllables"
+  ],
+  "48384": [
+    "Hangul Syllables"
+  ],
+  "48640": [
+    "Hangul Syllables"
+  ],
+  "48896": [
+    "Hangul Syllables"
+  ],
+  "49152": [
+    "Hangul Syllables"
+  ],
+  "49408": [
+    "Hangul Syllables"
+  ],
+  "49664": [
+    "Hangul Syllables"
+  ],
+  "49920": [
+    "Hangul Syllables"
+  ],
+  "50176": [
+    "Hangul Syllables"
+  ],
+  "50432": [
+    "Hangul Syllables"
+  ],
+  "50688": [
+    "Hangul Syllables"
+  ],
+  "50944": [
+    "Hangul Syllables"
+  ],
+  "51200": [
+    "Hangul Syllables"
+  ],
+  "51456": [
+    "Hangul Syllables"
+  ],
+  "51712": [
+    "Hangul Syllables"
+  ],
+  "51968": [
+    "Hangul Syllables"
+  ],
+  "52224": [
+    "Hangul Syllables"
+  ],
+  "52480": [
+    "Hangul Syllables"
+  ],
+  "52736": [
+    "Hangul Syllables"
+  ],
+  "52992": [
+    "Hangul Syllables"
+  ],
+  "53248": [
+    "Hangul Syllables"
+  ],
+  "53504": [
+    "Hangul Syllables"
+  ],
+  "53760": [
+    "Hangul Syllables"
+  ],
+  "54016": [
+    "Hangul Syllables"
+  ],
+  "54272": [
+    "Hangul Syllables"
+  ],
+  "54528": [
+    "Hangul Syllables"
+  ],
+  "54784": [
+    "Hangul Syllables"
+  ],
+  "55040": [
+    "Hangul Syllables",
+    "Hangul Jamo Extended-B"
+  ],
+  "55296": [
+    "High Surrogates"
+  ],
+  "55552": [
+    "High Surrogates"
+  ],
+  "55808": [
+    "High Surrogates"
+  ],
+  "56064": [
+    "High Surrogates",
+    "High Private Use Surrogates"
+  ],
+  "56320": [
+    "Low Surrogates"
+  ],
+  "56576": [
+    "Low Surrogates"
+  ],
+  "56832": [
+    "Low Surrogates"
+  ],
+  "57088": [
+    "Low Surrogates"
+  ],
+  "57344": [
+    "Private Use Area"
+  ],
+  "57600": [
+    "Private Use Area"
+  ],
+  "57856": [
+    "Private Use Area"
+  ],
+  "58112": [
+    "Private Use Area"
+  ],
+  "58368": [
+    "Private Use Area"
+  ],
+  "58624": [
+    "Private Use Area"
+  ],
+  "58880": [
+    "Private Use Area"
+  ],
+  "59136": [
+    "Private Use Area"
+  ],
+  "59392": [
+    "Private Use Area"
+  ],
+  "59648": [
+    "Private Use Area"
+  ],
+  "59904": [
+    "Private Use Area"
+  ],
+  "60160": [
+    "Private Use Area"
+  ],
+  "60416": [
+    "Private Use Area"
+  ],
+  "60672": [
+    "Private Use Area"
+  ],
+  "60928": [
+    "Private Use Area"
+  ],
+  "61184": [
+    "Private Use Area"
+  ],
+  "61440": [
+    "Private Use Area"
+  ],
+  "61696": [
+    "Private Use Area"
+  ],
+  "61952": [
+    "Private Use Area"
+  ],
+  "62208": [
+    "Private Use Area"
+  ],
+  "62464": [
+    "Private Use Area"
+  ],
+  "62720": [
+    "Private Use Area"
+  ],
+  "62976": [
+    "Private Use Area"
+  ],
+  "63232": [
+    "Private Use Area"
+  ],
+  "63488": [
+    "Private Use Area"
+  ],
+  "63744": [
+    "CJK Compatibility Ideographs"
+  ],
+  "64000": [
+    "CJK Compatibility Ideographs"
+  ],
+  "64256": [
+    "Alphabetic Presentation Forms",
+    "Arabic Presentation Forms-A"
+  ],
+  "64512": [
+    "Arabic Presentation Forms-A"
+  ],
+  "64768": [
+    "Arabic Presentation Forms-A"
+  ],
+  "65024": [
+    "Variation Selectors Unicode block",
+    "Vertical Forms",
+    "Combining Half Marks",
+    "CJK Compatibility Forms",
+    "Small Form Variants",
+    "Arabic Presentation Forms-B"
+  ],
+  "65280": [
+    "Halfwidth and Fullwidth Forms",
+    "Unicode Specials"
+  ]
+}

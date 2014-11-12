@@ -1,0 +1,31 @@
+{
+  "name": "unicode-map",
+  "version": "1.0.0",
+  "description": "display and interact with a map of unicode planes",
+  "main": "index.js",
+  "scripts": {
+    "test": "watchify -d site.js -o bundle.js & st -nc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/unicode-map.git"
+  },
+  "keywords": [
+    "unicode",
+    "map",
+    "interaction",
+    "canvas"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmcw/unicode-map/issues"
+  },
+  "homepage": "https://github.com/tmcw/unicode-map",
+  "devDependencies": {
+    "es6ify": "^1.5.1",
+    "simple-statistics": "^0.9.0",
+    "st": "^0.5.2",
+    "watchify": "^2.1.1"
+  }
+}
