@@ -2,7 +2,7 @@ var blockNames = require('./block-names.json');
 
 function UnicodeMap(elem) {
     this.base = 256;
-    this.scale = 6;
+    this.scale = 5;
     elem.innerHTML = '';
     elem.style.position = 'relative';
 
@@ -60,7 +60,7 @@ UnicodeMap.prototype.mouseout = function(e) {
 
 UnicodeMap.prototype.mousemove = function(e) {
     this.clearCanvas(this.hoverCanvas);
-    this.hoverCtx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+    this.hoverCtx.fillStyle = 'rgba(0, 0, 0, 0.8)';
     this.hoverCtx.fillRect(0, 0,
         this.base * this.scale,
         this.base * this.scale);
@@ -81,21 +81,11 @@ UnicodeMap.prototype.mousemove = function(e) {
      var eventBlock = this.getEventBlock(e);
      this.hoverCtx.font = '20px monospace';
      this.hoverCtx.fillStyle = 'rgba(0, 0, 0, 0.7)';
-     this.hoverCtx.fillRect(
-        (blockX + 1) * 16 * this.scale,
-        blockY * 16 * this.scale,
-        16 * this.scale * 16,
-        16 * this.scale);
-     this.hoverCtx.fillRect(
-        0,
-        blockY * 16 * this.scale,
-        (blockX) * 16 * this.scale,
-        16 * this.scale);
 
      this.hoverCtx.fillStyle = '#fff';
      var textX;
      if (blockX > 12) {
-         textX = ((blockX - 1) * 16 * this.scale) + 10;
+         textX = ((blockX) * 16 * this.scale) - 10;
          this.hoverCtx.textAlign = 'right';
      } else {
          textX = ((blockX + 1) * 16 * this.scale) + 10;
@@ -103,11 +93,13 @@ UnicodeMap.prototype.mousemove = function(e) {
      }
 
      if (this.view === 'bmp') {
+         this.hoverCtx.font = '25px monospace';
          this.hoverCtx.fillText(
             this.blockHex(eventBlock) + '⇢' +
             this.blockHex(eventBlock + 256),
             textX,
             (blockY * 16 * this.scale) + 30);
+         this.hoverCtx.font = '20px monospace';
          var y = (blockY * 16 * this.scale) + 30 + 30;
          if (blockNames[eventBlock]) {
             blockNames[eventBlock].forEach(function(name) {
@@ -121,14 +113,17 @@ UnicodeMap.prototype.mousemove = function(e) {
      } else {
          var codePoint = this.getEventCodePoint(e);
          this.hoverCtx.fillText(
-            'hex: ' + this.blockHex(codePoint) +
-            ' dec: ' + codePoint,
+            'hexadecimal ' + this.blockHex(codePoint),
             textX,
             (blockY * 16 * this.scale) + 30);
          this.hoverCtx.fillText(
+            'decimal ' + codePoint,
+            textX,
+            (blockY * 16 * this.scale) + 60);
+         this.hoverCtx.fillText(
             String.fromCharCode(codePoint),
             textX,
-            (blockY * 16 * this.scale) + 50);
+            (blockY * 16 * this.scale) + 90);
      }
 };
 

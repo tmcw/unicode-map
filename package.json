@@ -4,6 +4,7 @@
   "description": "display and interact with a map of unicode planes",
   "main": "index.js",
   "scripts": {
+    "fonts": "font-inspect --register /Library/Fonts > fonts.json",
     "test": "watchify -d site.js -o bundle.js & st -nc"
   },
   "repository": {
@@ -27,5 +28,8 @@
     "simple-statistics": "^0.9.0",
     "st": "^0.5.2",
     "watchify": "^2.1.1"
+  },
+  "dependencies": {
+    "fontnik": "^0.2.2"
   }
 }

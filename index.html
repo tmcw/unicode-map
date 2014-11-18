@@ -10,23 +10,37 @@ body {
     margin:0;
 }
 #map {
-    margin:20px auto;
-    width: 768px;
-    height: 768px;
+    margin:10px;
+    float:left;
+    width: 640px;
+    height: 640px;
     border:1px solid #222;
 }
-.explanation {
-    width:500px;
+.right {
+    width:400px;
+    float:left;
     margin:0 auto;
     line-height:160%;
+    font-size:12px;
+    color:#aaa;
     font-family: 'Georgia', Helvetica, serif;
-    color:#444;
+    margin:10px;
+}
+h3 {
+    text-align:center;
+    font-family: 'Georgia', Helvetica, serif;
+    font-size:20px;
+    text-transform:uppercase;
+}
+#fonts div {
+    padding:5px 0;
 }
 </style>
 </head>
 <body>
 <div id='map'></div>
-<div class='explanation'>
+<div class='right'>
+<div id='fonts'></div>
 <p>
 Every block is a set of 256 code points in the Basic Multilingual Plane,
 shaded by how often each character is used. Click on a block to zoom
