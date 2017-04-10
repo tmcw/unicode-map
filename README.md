@@ -1,5 +1,7 @@
 # unicode-map
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/unicode-map.svg)](https://greenkeeper.io/)
+
 A much prettier version of what I made before.
 
 ## See also
